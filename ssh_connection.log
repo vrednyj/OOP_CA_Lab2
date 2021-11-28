@@ -134,3 +134,69 @@
 2021-11-27 20:49:28 - drwx------ 4 l00169827 l00169827 4096 Nov 27 20:32 snap
 2021-11-27 20:49:28 - drwxr-xr-x 2 l00169827 l00169827 4096 Nov 27 20:49 Templates
 2021-11-27 20:49:28 - drwxr-xr-x 2 l00169827 l00169827 4096 Nov 27 20:48 Videos
+2021-11-28 22:46:18 - Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+2021-11-28 22:46:18 - Hit:2 http://us.archive.ubuntu.com/ubuntu focal InRelease
+2021-11-28 22:46:18 - Get:3 http://us.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+2021-11-28 22:46:18 - Get:4 http://us.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+2021-11-28 22:46:18 - Fetched 328 kB in 1s (304 kB/s)
+2021-11-28 22:46:18 - Reading package lists...
+2021-11-28 22:46:18 - Building dependency tree...
+2021-11-28 22:46:18 - Reading state information...
+2021-11-28 22:46:18 - 83 packages can be upgraded. Run 'apt list --upgradable' to see them.
+2021-11-28 22:46:21 - Reading package lists...
+2021-11-28 22:46:21 - Building dependency tree...
+2021-11-28 22:46:21 - Reading state information...
+2021-11-28 22:46:21 - curl is already the newest version (7.68.0-1ubuntu2.7).
+2021-11-28 22:46:21 - 0 upgraded, 0 newly installed, 0 to remove and 83 not upgraded.
+2021-11-28 22:46:21 - curl 7.68.0 (x86_64-pc-linux-gnu) libcurl/7.68.0 OpenSSL/1.1.1f zlib/1.2.11 brotli/1.0.7 libidn2/2.2.0 libpsl/0.21.0 (+libidn2/2.2.0) libssh/0.9.3/openssl/zlib nghttp2/1.40.0 librtmp/2.3
+2021-11-28 22:46:21 - Release-Date: 2020-01-08
+2021-11-28 22:46:21 - Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp 
+2021-11-28 22:46:21 - Features: AsynchDNS brotli GSS-API HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets
+2021-11-28 22:46:21 - Desktop
+2021-11-28 22:46:21 - Documents
+2021-11-28 22:46:21 - Downloads
+2021-11-28 22:46:21 - longList.txt
+2021-11-28 22:46:21 - Music
+2021-11-28 22:46:21 - Pictures
+2021-11-28 22:46:21 - Public
+2021-11-28 22:46:21 - snap
+2021-11-28 22:46:21 - Templates
+2021-11-28 22:46:21 - Videos
+2021-11-28 22:46:21 - .
+2021-11-28 22:46:21 - ├── Desktop
+2021-11-28 22:46:21 - ├── Documents
+2021-11-28 22:46:21 - ├── Downloads
+2021-11-28 22:46:21 - │   └── Lab
+2021-11-28 22:46:21 - │       ├── Lab1
+2021-11-28 22:46:21 - │       └── Lab2
+2021-11-28 22:46:21 - ├── longList.txt
+2021-11-28 22:46:21 - ├── Music
+2021-11-28 22:46:21 - ├── Pictures
+2021-11-28 22:46:21 - │   └── Screenshot from 2021-11-28 22-07-00.png
+2021-11-28 22:46:21 - ├── Public
+2021-11-28 22:46:21 - ├── snap
+2021-11-28 22:46:21 - │   ├── circleci
+2021-11-28 22:46:21 - │   │   ├── 247
+2021-11-28 22:46:21 - │   │   ├── 248
+2021-11-28 22:46:21 - │   │   ├── common
+2021-11-28 22:46:21 - │   │   └── current -> 245
+2021-11-28 22:46:21 - │   └── snap-store
+2021-11-28 22:46:21 - │       ├── 547
+2021-11-28 22:46:21 - │       ├── 558
+2021-11-28 22:46:21 - │       ├── common
+2021-11-28 22:46:21 - │       └── current -> 558
+2021-11-28 22:46:21 - ├── Templates
+2021-11-28 22:46:21 - └── Videos
+2021-11-28 22:46:21 - 
+2021-11-28 22:46:21 - 21 directories, 3 files
+2021-11-28 22:46:22 - total 40
+2021-11-28 22:46:22 - drwxr-xr-x 2 l00169827 l00169827 4096 Nov 28 21:53 Desktop
+2021-11-28 22:46:22 - drwxr-xr-x 2 l00169827 l00169827 4096 Nov 28 21:53 Documents
+2021-11-28 22:46:22 - drwxr-xr-x 3 l00169827 l00169827 4096 Nov 28 21:53 Downloads
+2021-11-28 22:46:22 - -rw-rw-r-- 1 l00169827 l00169827 1408 Nov 28 22:06 longList.txt
+2021-11-28 22:46:22 - drwxr-xr-x 2 l00169827 l00169827 4096 Nov 28 21:53 Music
+2021-11-28 22:46:22 - drwxr-xr-x 2 l00169827 l00169827 4096 Nov 28 22:46 Pictures
+2021-11-28 22:46:22 - drwxr-xr-x 2 l00169827 l00169827 4096 Nov 28 21:57 Public
+2021-11-28 22:46:22 - drwx------ 4 l00169827 l00169827 4096 Nov 28 21:57 snap
+2021-11-28 22:46:22 - drwxr-xr-x 2 l00169827 l00169827 4096 Nov 28 21:57 Templates
+2021-11-28 22:46:22 - drwxr-xr-x 2 l00169827 l00169827 4096 Nov 28 21:53 Videos

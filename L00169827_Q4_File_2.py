@@ -99,7 +99,7 @@ def port_scan():
     total =  t2 - t1
 
     # Printing the information to screen
-    print ('Scanning Completed in: ', total)
+    print ('Scanning Completed in: {}'.format(total))
 
 if __name__ == "__main__":
     create_dictionary()

@@ -1,0 +1,156 @@
+[0m# aws_instance.app_server:
+resource "aws_instance" "app_server" {
+    [1m[0mami[0m[0m                                  = "ami-09ce2fc392a4c0fbc"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:eu-west-1:309733680103:instance/i-0a28af8abd8f6e1ae"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "eu-west-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 1
+    [1m[0mcpu_threads_per_core[0m[0m                 = 1
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0miam_instance_profile[0m[0m                 = "EnablesEC2ToAccessSystemsManagerRole"
+    [1m[0mid[0m[0m                                   = "i-0a28af8abd8f6e1ae"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "t2.micro"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "Windows_instance"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-0e1df1b532341f5e4"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-38-178.eu-west-1.compute.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.38.178"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-34-240-161-114.eu-west-1.compute.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "34.240.161.114"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "SSH_Connection",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-0cdbdf0015704e8b3"
+    [1m[0mtags[0m[0m                                 = {
+        "Name" = "L00169827_Linux "
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name" = "L00169827_Linux "
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-0ac73e1a732fd7516",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    credit_specification {
+        [1m[0mcpu_credits[0m[0m = "standard"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/xvda"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-045a8cb2284cec1f6"
+        [1m[0mvolume_size[0m[0m           = 8
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+
+Outputs:
+
+instance_public_ip = "34.240.161.114"[0m[0m
+[0m# aws_instance.app_server:
+resource "aws_instance" "app_server" {
+    [1m[0mami[0m[0m                                  = "ami-09ce2fc392a4c0fbc"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:eu-west-1:309733680103:instance/i-0a28af8abd8f6e1ae"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "eu-west-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 1
+    [1m[0mcpu_threads_per_core[0m[0m                 = 1
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0miam_instance_profile[0m[0m                 = "EnablesEC2ToAccessSystemsManagerRole"
+    [1m[0mid[0m[0m                                   = "i-0a28af8abd8f6e1ae"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "t2.micro"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "Windows_instance"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-0e1df1b532341f5e4"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-38-178.eu-west-1.compute.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.38.178"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-34-240-161-114.eu-west-1.compute.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "34.240.161.114"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "SSH_Connection",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-0cdbdf0015704e8b3"
+    [1m[0mtags[0m[0m                                 = {
+        "Name" = "L00169827_Linux "
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name" = "L00169827_Linux "
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-0ac73e1a732fd7516",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    credit_specification {
+        [1m[0mcpu_credits[0m[0m = "standard"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/xvda"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-045a8cb2284cec1f6"
+        [1m[0mvolume_size[0m[0m           = 8
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+
+Outputs:
+
+instance_public_ip = "34.240.161.114"[0m[0m
